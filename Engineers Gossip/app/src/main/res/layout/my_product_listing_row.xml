@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="0.5dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:id="@+id/entrieslistcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <!-- ListRow Left sied Thumbnail image -->
+
+        <LinearLayout
+            android:id="@+id/toplist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/rel_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imageview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/product"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/Premium_dimond"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_margin="10dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dimond_red" android:visibility="gone"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txtview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/imageview"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:text="Unknown"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtview12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="No Recipe"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/font_size"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txttitle_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/txtview"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="left|center_vertical"
+                android:text="User"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/font_size"
+
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </LinearLayout>
+        <!-- Artist Name -->
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/txtdelete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/bg_row_button_selector"
+                android:drawableTop="@drawable/ic_delete_forever"
+                android:gravity="center"
+                android:text="Delete"
+
+                android:textColor="#DD2C00"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/verticle_view"></View>
+
+
+            <TextView
+                android:id="@+id/txtproducts_markpremium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/bg_row_button_selector"
+                android:drawableTop="@drawable/dimond_red"
+                android:gravity="center"
+                android:text="PRIME"
+                android:textColor="#00B8D4"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@color/verticle_view"></View>
+
+            <TextView
+                android:id="@+id/txtviewNoOfTimesView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFAB00"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtids"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Unknown"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

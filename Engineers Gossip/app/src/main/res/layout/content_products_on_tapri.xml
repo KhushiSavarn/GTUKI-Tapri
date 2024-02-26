@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:id="@+id/toplinlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            app:cardCornerRadius="0.5dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:id="@+id/top_sublinlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autocollegename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:hint="Write near by college and then tap on product type."
+                    android:maxLines="1"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/imgbtnclearsearch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    android:background="@drawable/bg_top_button_selector"
+                    android:textColor="@color/colorSecondaryDark" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <include layout="@layout/product_category_status"></include>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"></View>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gray_background"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnrequestsent_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_top_button_selector"
+                android:text="Retry"
+                android:textColor="@color/retry_textcolor"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtsent_0_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizontal_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_background"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

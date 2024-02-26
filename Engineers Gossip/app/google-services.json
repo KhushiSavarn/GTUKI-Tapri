@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "80599428851",
+    "project_id": "engineers-gossip"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80599428851:android:5290de0039e28feb",
+        "android_client_info": {
+          "package_name": "com.ambaitsystem.vgecchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuuWQV3nmGYUAH4XaKiYQ1lsyDr0DsAL0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-75032937-4"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

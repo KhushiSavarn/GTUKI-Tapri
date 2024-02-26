@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="department">
+        <item>Select Department</item>
+        <item>AERONAUTICAL</item>
+        <item>AUTOMOBILE</item>
+        <item>BIO MEDICAL</item>
+        <item>BIO TECHNOLOGY</item>
+        <item>CHEMICAL</item>
+        <item>CIVIL</item>
+        <item>COMPUTER</item>
+        <item>ELECTRICAL N ELECTRONICS</item>
+        <item>ELECTRICAL</item>
+        <item>ELECTRONICS</item>
+        <item>ELECTRONICS N COMMUNICATION</item>
+        <item>ENVIRONMENTAL</item>
+        <item>FOOD PROCESSING TECHNOLOGY</item>
+        <item>INDUSTRIAL</item>
+        <item>INFORMATION TECHNOLOGY</item>
+        <item>INSTRUMENTATION N CONTROL</item>
+        <item>MECHANICAL</item>
+        <item>MECHATRONICS</item>
+        <item>METALLURGY</item>
+        <item>MINING</item>
+        <item>PLASTIC TECHNOLOGY</item>
+        <item>POWER ELECTRONICS</item>
+        <item>PRODUCTION</item>
+        <item>RUBBER TECHNOLOGY</item>
+        <item>TEXTILE PROCESSING</item>
+        <item>TEXTILE TECHNOLOGY</item>
+        <item>INFORMATION N COMMUNICATION TECHNOLOGY</item>
+        <item>MANUFACTURING</item>
+        <item>ENVIRONMENTAL SCIENCE N TECHNOLOGY</item>
+        <item>CHEMICAL TECHNOLOGY</item>
+        <item>NANO TECHNOLOGY</item>
+        <item>CIVIL AND INFRASTRUCTURE</item>
+
+    </array>
+
+    <array name="yearofadmission">
+        <item>Select Admission Year</item>
+        <item>"2019"</item>
+        <item>"2018"</item>
+        <item>"2017"</item>
+        <item>"2016"</item>
+        <item>"2015"</item>
+        <item>"2014"</item>
+        <item>"2013"</item>
+        <item>"2012"</item>
+        <item>"2011"</item>
+        <item>"2010"</item>
+        <item>"2009"</item>
+        <item>"2008"</item>
+        <item>"2007"</item>
+        <item>"2006"</item>
+        <item>"2005"</item>
+        <item>"2004"</item>
+        <item>"2003"</item>
+        <item>"2002"</item>
+        <item>"2001"</item>
+        <item>"2000"</item>
+        <item>"1999"</item>
+        <item>"1998"</item>
+        <item>"1997"</item>
+        <item>"1996"</item>
+        <item>"1995"</item>
+        <item>"1994"</item>
+        <item>"1993"</item>
+        <item>"1992"</item>
+        <item>"1991"</item>
+        <item>"1990"</item>
+        <item>"1989"</item>
+        <item>"1988"</item>
+    </array>
+
+    <array name="productcategory">
+        <item>Select Product Type</item>
+        <item>"BOOKS"</item>
+        <item>"STATIONARY"</item>
+        <item>"FOOD ZONE"</item>
+        <item>"PG"</item>
+        <item>"GADGETS"</item>
+        <item>"ACCESSORIES"</item>
+        <item>"OTHER"</item>
+    </array>
+
+    <array name="newscategory">
+        <item>Select News category </item>
+        <item>"COLLEGE"</item>
+        <item>"DEPARTMENT"</item>
+        <item>"HOSTEL"</item>
+        <item>"CAREER"</item>
+        <item>"EVENTS"</item>
+        <item>"OTHER"</item>
+    </array>
+
+    <array name="college_name">
+        <item>Select College</item>
+        <item>A  D  PATEL INSTITUTE OF TECHNOLOGY</item>
+        <item>A  R  COLLEGE OF PHARMACY AND G H PATEL INSTITUTTE OF PHARMACY,</item>
+        <item>A V PAREKH TECHNICAL INSTITUTE, - RAJKOT</item>
+        <item>A Y DADABHAI TECHNICAL INSTITUTE</item>
+        <item>AHMEDABAD INSTITUTE OF TECHNOLOGY</item>
+        <item>ALPHA COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>ATMIYA INSTITUTE OF PHARMACY</item>
+        <item>ATMIYA INSTITUTE OF PHARMACY FOR DIPLOMA STUDIES</item>
+        <item>ATMIYA INSTITUTE OF TECHNOLOGYAND SCIENCE</item>
+        <item>ATMIYA INSTITUTE OF TECHNOLOGYAND SCIENCE FOR DIPLOMA STUDIES</item>
+        <item>B  H  GARDI COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>B  K  MODI GOVERNMENT PHARMACY COLLEGE</item>
+        <item>B AND B  INSTI  OF TECH</item>
+        <item>B AND B  INSTI  OF TECH</item>
+        <item>BABARIA INSTITUTE OF TECHNOLOGY</item>
+        <item>BHAGVAD GOPAL INSTI  OF TECHNOLOGY</item>
+        <item>BHAGVAD GOPAL INSTITUTE OF ENGINEERING</item>
+        <item>BHAGVAN MAHAVIR POLYTECHNIC</item>
+        <item>BHAGWAN MAHAVIR COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>BIRLA VISHVAKARMA MAHA VIDHYALAYAE</item>
+        <item>BIRLA VISHVAKRMA MAHA VIDHYLAYA</item>
+        <item>BUTLAR POLYTECHNIC</item>
+        <item>C  K  PITHAWALA COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>C U SHAH GOVERNMENTPOLYTECHNIC WADHAWAN</item>
+        <item>CHAROTAR INSTITUTE OF TECHNOLOGY CHANGA</item>
+        <item>CHHOTUBHAI GOPALBHAI PATEL INSTITUTE OF TECHNOLOGY</item>
+        <item>CHINMAY INSTITUTE OF PHARMACY</item>
+        <item>CHRIST POLYTECHNIC INSTITUTE</item>
+        <item>DARSHAN INSTITUTION OF ENGINEERING AND TECHNOLOGY</item>
+        <item>DR  J N MEHTA GOVERNMENT POLYTECHNIC</item>
+        <item>DR JIVRAJ MEHTA INSTITUTE OF TECHNOLOGY</item>
+        <item>DR S AND S S GANDHY COLLEGE OF ENGINEERING AND TECHNOLOGY SURAT</item>
+        <item>ENGINEERIGN COLLEGE GODHARA</item>
+        <item>EXCEL INSTITUTE OF DIPLOMA STUDIES</item>
+        <item>FACULTY OF ENGINEERING SHREE SARASWATI EDUCATION SANSTHANS GROUP OF INSTITUTIONS</item>
+        <item>FACULTY OF ENGINEERING-MARWADI EDUCATION FOUNDATION GROUP OF INSTITUTIONS</item>
+        <item>FACULTY OF TECHNOLOGY AND ENGG  (PHARMACY) MSUVADODARA</item>
+        <item>G  H  PATEL COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>G K  BHARAD INSTITUTE OF ENGINEERING</item>
+        <item>GANDHINAGAR INSTITITE OF TECHNOLOGY</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE AVPTI</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE BHARUCH</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE BHUJ</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE BPTI</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE DAHOD </item>
+        <item>GOVERNMENT ENGINEERING COLLEGE GODHRA</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE MODASA </item>
+        <item>GOVERNMENT ENGINEERING COLLEGE PALANPUR</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE PATAN </item>
+        <item>GOVERNMENT ENGINEERING COLLEGE SEC-28</item>
+        <item>GOVERNMENT ENGINEERING COLLEGE SURAT </item>
+        <item>GOVERNMENT ENGINEERING COLLEGE VALSAD</item>
+        <item>GOVERNMENT POLYTECHNIC - GANDHINAGAR</item>
+        <item>GOVERNMENT POLYTECHNIC - GODHARA</item>
+        <item>GOVERNMENT POLYTECHNIC - JUNAGADH</item>
+        <item>GOVERNMENT POLYTECHNIC - PALANPUR</item>
+        <item>GOVERNMENT POLYTECHNIC - PORBANDAR</item>
+        <item>GOVERNMENT POLYTECHNIC - RAJKOT</item>
+        <item>GOVERNMENT POLYTECHNIC AHWA</item>
+        <item>GOVERNMENT POLYTECHNIC AMDAVAD</item>
+        <item>GOVERNMENT POLYTECHNIC DAHOD</item>
+        <item>GOVERNMENT POLYTECHNIC FOR GIRLS, - AHMEDABAD</item>
+        <item>GOVERNMENT POLYTECHNIC FOR GIRLS -SURAT</item>
+        <item>GOVERNMENT POLYTECHNIC HIMMATNAGAR</item>
+        <item>GOVERNMENT POLYTECHNIC JAMNAGAR</item>
+        <item>GOVERNMENT POLYTECHNIC BHUJ</item>
+        <item>GOVERNMENT POLYTECHNIC CHHOTA UDEPUR</item>
+        <item>GOVERNMENT POLYTECHNIC VADNAGAR</item>
+        <item>GOVERNMENT POLYTECHNIC VALSAD</item>
+        <item>GROW MORE FOUNDATIONS GROUP OF INSTITUTIONS</item>
+        <item>HASMUKH GOSWAMI COLLEGE OF ENGINEERING</item>
+        <item>I  K  PATEL COLLEGE OF PHARMACEUTICAL EDUCATION AND RESEARCH</item>
+        <item>INDUS INSTITUTE OF TECHNOLOGY AND ENGINEERING</item>
+        <item>K  J  INSTITUTE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>K D POLYTECHNIC - PATAN</item>
+        <item>K J INSTITUTE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>KALOL INSTITUTE OF TECHNOLOGY</item>
+        <item>KANKESHWARI DEVI INSTITUTE OF TECHNOLOGY</item>
+        <item>KRISHANA JIVANDAS INSTITUTE OF TECHNOLOGY</item>
+        <item>L  C  INSTITUTE OF TECHNOLOGY</item>
+        <item>L  D  ENGINEERING COLLEGE</item>
+        <item>L  J  INSTITUTE OF TECHNOLOGY AND ENGINEERING</item>
+        <item>L  M  COLLEGE OF PHARMACY</item>
+        <item>L J POLYTECHNIC</item>
+        <item>LAKHADHIRAJI ENGG  COLLEGE- MORBI</item>
+        <item>LEELABEN DASHRATHBHAI RAMDAS PATEL INST  OF TECH  AND RESEARCH</item>
+        <item>LUKHDHIRJI ENGINEERING COLLEGE</item>
+        <item>M  S  UNIVERSITY OF BARODA POLYTECHIC</item>
+        <item>M  S  UNIVERSITY OF BARODA POLYTECHNIC</item>
+        <item>M L  INSTITUTE OF DIPLOMA STUDIES</item>
+        <item>M S PATEL POLYTECHNIC</item>
+        <item>MAHATMA GANDHI INST  OF TECHNICAL EDUCATION AND RESEARCH CENTRE</item>
+        <item>MERCHANT ENGINEERING COLLEGE</item>
+        <item>MERCHANT POLYTECHNIC</item>
+        <item>N G PATEL POLYTECHNIC</item>
+        <item>NARNARAYAN SHASTRI INSTITUTE OF TECHNOLOGY</item>
+        <item>NIRMA INSTI  OF DIPLOMA STUDIES</item>
+        <item>NOBEL ENGINEERING COLLEGE</item>
+        <item>OM SHANTI ENGINEERING COLLEGE</item>
+        <item>PARUL GIRLS POLYTECHNIC</item>
+        <item>PARUL INST OF ENGINEERING AND TECH DIPLOMA STUDIES</item>
+        <item>PARUL INST OF HOTEL MANAGEMENT AND CATERING TECH</item>
+        <item>PARUL INSTITUTE OF ENGG  AND TECHNOLOGY</item>
+        <item>R  H  PATEL COLLEGE OF PHARMACY</item>
+        <item>R  K  COLLGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>R C  TECHNICAL INSTITUTE</item>
+        <item>R H PATEL INSTI  OF TECH</item>
+        <item>R M S POLYTECHNIC</item>
+        <item>S K PATEL INSTITUTE OF MANAGEMENT AND COMPUTER STUDIES</item>
+        <item>S  T  B S  COLLEGE OF DIPLOMA ENGINEERING</item>
+        <item>S V  INSTITITE OF COMPUTER STUDIES</item>
+        <item>SABAR INSTITUTE OF TECHNOLOGY FOR GIRLS</item>
+        <item>SAFFRONY,S  P  B  PATEL INST  OF TECH</item>
+        <item>SAKALCHAND PATEL COLLEGE OF ENGINEERING</item>
+        <item>SAL INSTITUTE OF PHARMACY</item>
+        <item>SAL INSTITUTE OF TECHNOLOGY AND ENGINEERING RESEARCH</item>
+        <item>SARDAR PATEL COLLEGE OF PHARMACY FOR WOMEN</item>
+        <item>SARDAR PATEL INSTITUTE OF TECHNOLOGY</item>
+        <item>SARDAR PATEL INSTITUTE OF TECHNOLOGY</item>
+        <item>SARVJANIK COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>SARVODAYA POLYTECHNIC INSTITUTE</item>
+        <item>SHANKARSINGH VAGHELA BAPU INSTITUTE OF TECHNOLOGY</item>
+        <item>SHANKARSINH VAGHELA BAPU INSTITUTE OF PHARMACY</item>
+        <item>SHANTILAL SHAH ENGINEERING COLLEGE</item>
+        <item>SHARDA PHARMACY COLLEGE</item>
+        <item>SHIVAM PHARMACEUTICAL STUDIES AND RESEARCH CENTRE</item>
+        <item>SHREE MUKUNDLAL VITTHALDAS SHAH PHARMACY COLLEGE</item>
+        <item>SHREE SAVARAM COLLEGE OF PHARMACEUTICAL EDUCATION AND RESEARCH</item>
+        <item>SHRI C  U  SHAH COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>SHRI SADVIDHYAMANDAL INSTITUTE OF TECHNOLOGY</item>
+        <item>SHRI B S PATEL POLYTECHNIC</item>
+        <item>SHRI K J POLYTECHNIC BHARUCH</item>
+        <item>SHRI N M GOPANI</item>
+        <item>SIGMA INSTITUTE OF ENGINEERING</item>
+        <item>SIGMA INSTITUTE OF TECH AND ENGINEERING</item>
+        <item>SILVER OAK COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>SIR  BHAVSINHJI POLYTECHNIC INSTITUTE</item>
+        <item>SMT  C  R  GARDI SCHOOL OF PHARMACY FOR GIRLS</item>
+        <item>SMT  S  R  PATEL ENGINEERING COLLEGE</item>
+        <item>SWAMI SACHCHIDANAND POLYTECHNIC</item>
+        <item>TAKSHASHILA COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>TECHNICAL INSTITUTE OF DIPLOMA STUDIES</item>
+        <item>TOLANI FOUNDATION GANDHIDHAM POLYTECHNIC</item>
+        <item>TOLANI FOUNDATION GANDHIDHAM POLYTECHNIC</item>
+        <item>UNIVERSAL COLLEGE OF ENGINEERING AND TECHNOLOGY</item>
+        <item>V V P  ENGINEERING COLLEGE</item>
+        <item>VADODARA INSTITUTE OF ENGINEERING</item>
+        <item>VALIA INSTITUTE OF TECHNOLOGY</item>
+        <item>VALLABHBUDHI POLYTECHNIC</item>
+        <item>VENUS INTRNATIONAL COLLEGE OF TECHNOLOGY</item>
+        <item>VIDHYAHARTI TRUST POLYTECHNIC INSTITUTE</item>
+        <item>VIDYABHARTI TRUST INSTITUTE OF TECHNOLOGY AND RESEARC</item>
+        <item>VISHWAKARMA GOVERNMENT ENGINEERING COLLEGE</item>
+        <item>VIVEKANAND INSTITUTE OF TECHNOLOGY</item>
+        <item>VPMP POLYTECHNIC</item>
+        <item>OTHER</item>
+    </array>
+</resources>

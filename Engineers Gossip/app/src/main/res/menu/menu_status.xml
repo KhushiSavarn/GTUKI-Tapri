@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+    <item
+        android:id="@+id/action_message"
+        android:orderInCategory="100"
+        android:title="Message"
+        android:icon="@drawable/notification_layer"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Invite Friends On Tapri"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_approve"
+        android:orderInCategory="100"
+        android:title="Approve News"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout_status"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

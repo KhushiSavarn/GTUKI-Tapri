@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GTUKiTapri</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="err_msg_name">Enter full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="title_activity_chat_room_discussion">ChatRoomDiscussionActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_share">Invite</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">GTU KI TAPRI</string>
+    <string name="slide_1_desc">Exclusive social platform for Gujarat Technological University students</string>
+
+    <string name="slide_2_title">TAPRI</string>
+    <string name="slide_2_desc">Chat with students of your branch</string>
+
+    <string name="slide_3_title">SEND 121 NEWS</string>
+    <string name="slide_3_desc">Send new happended at your college and get assured gift</string>
+
+    <string name="slide_4_title">BUY SELL</string>
+    <string name="slide_4_desc">Sell your unused items directly to people</string>
+
+    <string name="slide_5_title">ENJOY</string>
+    <string name="slide_5_desc">View Profile , offer a Tea and make a friends</string>
+</resources>

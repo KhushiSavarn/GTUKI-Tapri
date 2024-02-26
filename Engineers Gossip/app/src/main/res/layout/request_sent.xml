@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sent_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/gray_background" />
+
+    <Button
+        android:id="@+id/btnrequestsent_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Retry"
+        android:textColor="@color/retry_textcolor"
+        android:background="@drawable/bg_top_button_selector"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/btnrequestsent_letssee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Let's See"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_top_button_selector"
+
+        android:visibility="gone" />
+    <ProgressBar
+        android:id="@+id/Progress_for_sent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnrequestsent_retry"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+    <TextView
+        android:id="@+id/txtsent_0_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnrequestsent_retry"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+</RelativeLayout>

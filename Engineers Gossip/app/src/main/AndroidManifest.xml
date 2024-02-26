@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <!-- needed for older devices -
+     used to check app background / foreground status -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- START Added for GCM -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission
+        android:name="com.ambaitsystem.tapri.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.ambaitsystem.vgecchat.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- END Added for GCM -->
+
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="com.ambaitsystem.tapri.app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.MainActivity"
+            android:label="@string/app_name" android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.Request_Status"
+            android:label="Requests"></activity>
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.Request_News"
+            android:label="Requests"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.activity_approve_reject_news"         android:exported="true"
+            ></activity>
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.activity_main_screen"
+            android:label="Requests"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.FriendsOnTapri"
+            android:label="Friends On Tapri"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.activity_news_sub_list"
+            android:label="Activity"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.activity_news_detail_upload"
+            android:label="New Activity"         android:exported="true"
+            ></activity>
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.activity_address_for_gift"
+            android:label="Address for Gift"         android:exported="true"
+            ></activity>
+
+        <activity android:name="com.ambaitsystem.tapri.activity.activity_news_upload"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.WelcomeActivity"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.QuizCallActivity"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.QuizActivity"         android:exported="true"
+            ></activity>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"         android:exported="true"
+            /> <!-- optional (needed if default theme has no action bar) -->
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.ViewOwnProfile"
+            android:theme="@style/Theme.MyDialog"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.ViewFullActivity"
+            android:theme="@style/Theme.MyDialog"         android:exported="true"
+            ></activity>
+
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.ViewFriendsProfile"
+            android:theme="@style/Theme.MyDialog"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.App_update"
+            android:theme="@style/Base.Theme.AppCompat"         android:exported="true"
+            />
+
+        <activity
+            android:exported="true"
+            android:name="com.ambaitsystem.tapri.activity.LoginActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.ambaitsystem.tapri.activity.ChatRoomActivity"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.SingleChatRoomActivity"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.List_Single_chat_Messages"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.Product_listing_my"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.My_Cart"         android:exported="true"
+            ></activity>
+        <activity android:name="com.ambaitsystem.tapri.activity.Request_Friends_see_all"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.Product_My_Upload"
+            android:windowSoftInputMode="stateAlwaysHidden"         android:exported="true"
+            ></activity>
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.activity_mark_premium"
+            android:windowSoftInputMode="stateAlwaysHidden"         android:exported="true"
+            ></activity>
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.Product_listing"
+            android:windowSoftInputMode="stateAlwaysHidden"         android:exported="true"
+            ></activity>
+
+        <activity
+            android:name="com.ambaitsystem.tapri.activity.ViewProductProfile"
+            android:theme="@style/Theme.MyDialog"         android:exported="true"
+            ></activity>
+
+
+        <!-- START Added for GCM -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.ambaitsystem.vgecchat" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.ambaitsystem.tapri.gcm.MyGcmPushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <!-- END Added for GCM -->
+    </application>
+
+</manifest>
